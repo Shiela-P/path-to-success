@@ -65,10 +65,23 @@ table {
 /* GLOBAL STYLES (mobile first/small) */
 html{
     font-family: 'inter';
+    background-color: var(--lavender);
+}
+
+body{
+    background-color: var(--purple);
+    max-width: 450px;
+    margin: 0 auto;
+
+}
+
+#title{
+    padding: 1em;
 }
 
 h1, h2{
     font-family: 'kavoon';
+    color: var(--white);
 }
 
 h1{
@@ -77,6 +90,9 @@ h1{
 
 nav h2{
     font-size: 1.5em;
+}
+nav{
+    padding: 1em;
 }
 
 h2{
@@ -89,4 +105,29 @@ h3{
 
 h4{
     font-size: 1.15em;
+}
+
+header p{
+    color: var(--white);
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    background-color: var(--yellow);
+    text-align: center;
+}
+
+nav h2{
+    color: var(--dark-gray);
+}
+
+nav li{
+    color: var(--purple);
+    background-color: var(--white);
+    margin: 0.5em 1em;
+    padding: 1em;
+    font-weight: bold;
 }
