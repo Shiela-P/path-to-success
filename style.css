@@ -90,6 +90,7 @@ h1{
 
 nav h2{
     font-size: 1.5em;
+    margin: 0;
 }
 nav{
     padding: 1em;
@@ -97,16 +98,25 @@ nav{
 
 h2{
     font-size: 2em;
+    margin: 0.5em 0.5em 0.10em 0.5em;
 }
 
 h3{
     font-size: 1.5em;
+    color: var(--yellow);
+    margin:  0 0.5em 0 0.75em;
 }
 
 h4{
     font-size: 1.15em;
+    color: var(--purple);
+    font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
+p{
+    line-height: 1.5em;
+}
 header p{
     color: var(--white);
 }
@@ -122,12 +132,62 @@ nav{
 
 nav h2{
     color: var(--dark-gray);
+    font-family: 'inter';
+    font-weight: bold;
 }
 
 nav li{
     color: var(--purple);
     background-color: var(--white);
-    margin: 0.5em 1em;
+    margin: 0.5em 0.75em;
     padding: 1em;
     font-weight: bold;
+}
+
+div{
+    background-color: var(--white);
+    padding: 1em;
+    margin: .75em 1.5em;
+    border-radius: 1em;
+}
+
+#why{
+    background-color: var(--pink);
+    padding: 0.5em;
+}
+
+#personalized{
+    background-color: var(--teal);
+
+}
+
+#proven{
+    background-color: var(--lavender);
+}
+
+#supportive{
+    background-color: var(--yellow);
+}
+
+#flexible{
+    background-color: var(--white);
+}
+
+.reasons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin: 1em 0;
+
+}
+
+.reasons li{
+    width: 11em;
+    height: 4em;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+    border-radius: 1em;
+    align-content: center;
 }
