@@ -103,6 +103,7 @@ h2{
 
 h3{
     font-size: 1.5em;
+    font-weight: bold;
     color: var(--yellow);
     margin:  0 0.5em 0 0.75em;
 }
@@ -147,7 +148,7 @@ nav li{
 div{
     background-color: var(--white);
     padding: 1em;
-    margin: .75em 1.5em;
+    margin: 1em 1.5em;
     border-radius: 1em;
 }
 
@@ -190,4 +191,46 @@ div{
     text-align: center;
     border-radius: 1em;
     align-content: center;
+}
+
+table{
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+th{
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+    font-weight: bold;
+    padding: 1em;
+}
+
+td{
+    background-color: var(--white);
+    border: 2px solid var(--yellow);
+    padding: 1em;
+}
+
+#first_step{
+    background-color: #D9526F;
+    padding: 0.5em;
+}
+
+#first_step p{
+    color: var(--white);
+    margin: 1em;
+}
+
+button{
+    border: none;
+    display: block;
+    background-color: var(--white);
+    border-radius: 1em;
+    width: 25em;
+    margin: 0 auto;
+    padding: 1em;
+    font-weight: bold;
+    font-size: 0.90em;
+    box-shadow: 5px 5px 5px;
+
 }
