@@ -75,7 +75,7 @@ body{
 
 }
 
-#title{
+header section{
     padding: 1em;
 }
 
@@ -145,14 +145,14 @@ nav li{
     font-weight: bold;
 }
 
-div{
+main div{
     background-color: var(--white);
     padding: 1em;
     margin: 1em 1.5em;
     border-radius: 1em;
 }
 
-#why{
+main section:nth-of-type(2) {
     background-color: var(--pink);
     padding: 0.5em;
 }
@@ -233,4 +233,25 @@ button{
     font-size: 0.90em;
     box-shadow: 5px 5px 5px;
 
+}
+
+footer div{
+    display: flex;
+    color: var(--white);
+    font-size: 0.75em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    display: inline;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    
+}
+
+footer a{
+    text-decoration: underline;
 }
